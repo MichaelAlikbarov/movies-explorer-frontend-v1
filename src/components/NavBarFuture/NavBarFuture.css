@@ -1,0 +1,12 @@
+.navbar-future {
+    max-width: 1280px;
+    height: 50px;
+    background: #073042;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar-future {
+        height: 66px;
+    }
+}
