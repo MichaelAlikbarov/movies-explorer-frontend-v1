@@ -4,7 +4,7 @@ import tumbleroff from '../../images/smalltumboff.svg';
 import findIcon from '../../images/find.svg';
 import FilterCheckbox from '../FilterCheckbox/FilterCheckbox';
 import { useState } from 'react';
-// import Preloader from '../Preloader/Preloader';
+import Preloader from '../Preloader/Preloader';
 // import useToggle from '../../hooks/useToggle';
 
 function SearchForm() {
@@ -19,7 +19,6 @@ function SearchForm() {
 
     function handlePreloader(e) {
         e.preventDefault()
-        // <Preloader />
     }
 
     return(
