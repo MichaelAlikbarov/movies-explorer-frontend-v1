@@ -1,0 +1,131 @@
+.about-project {
+    max-width: 1280px;
+    background: #202020;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about-project__info-container {
+    margin: 70px 6.14% 110px 6.14%;
+    display: flex;
+    gap: 40px;
+}
+
+@media(max-width: 320px) {
+    .about-project__info-container {
+        flex-direction: column;
+        margin-top: 60px;
+        margin-bottom: 70px;
+        gap: 56px;
+    }
+}
+
+.about-project__info {
+    margin: 0;
+    max-width: 550px;
+}
+
+.about-project__title {
+    color: #FFF;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    margin: 0;
+    padding-bottom: 26px;
+}
+
+@media(max-width: 320px) {
+    .about-project__title {
+        padding-bottom: 16px;
+        font-size: 18px;
+        letter-spacing: -0.72px;
+    }
+}
+
+.about-project__subtitle {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 142.857%;
+    margin: 0;
+}
+
+@media(max-width: 320px) {
+    .about-project__subtitle {
+        padding-bottom: 16px;
+        font-size: 11px;
+        line-height: 145.455%;
+    }
+}
+
+.about-project__timeline {
+    margin: 0 6.14% 110px 6.14%;
+    display: grid;
+    grid-template-columns: 228px auto;
+    grid-template-rows: 2fr;
+    column-gap: 0;
+    row-gap: 14px;
+}
+
+@media(max-width: 520px) {
+    .about-project__timeline {
+        grid-template-columns: 100px auto;
+    }
+}
+
+.about-project__timeline-block {
+    margin: 0;
+    display: flex;
+    height: 36px;
+    background: #303030;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media(max-width: 320px) {
+    .about-project__timeline-block {
+        font-size: 11px;
+    }
+}
+
+.about-project__timeline-block_green {
+    width: 228px;
+    height: 36px;
+    background: #3DDC84;
+    color: #000;
+}
+
+@media(max-width: 520px) {
+    .about-project__timeline-block_green {
+        width: 100px;
+    }
+}
+
+.about-project__timeline-caption {
+    margin: 0;
+    color: #8B8B8B;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.429%;
+}
+
+@media(max-width: 320px) {
+    .about-project__timeline-caption {
+        color: #A0A0A0;
+        font-size: 11px;
+    }
+}

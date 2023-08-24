@@ -1,0 +1,30 @@
+
+.headline {
+    border-bottom: 1px solid #DADADA;
+    max-width: 1140px;
+    flex-shrink: 0;
+    max-width: 1140px;
+    margin: 0 6.14%;
+    padding: 110px 0 23px;
+}
+
+@media (max-width: 768px) {
+    .headline {
+        padding-top: 90px;
+    }
+}
+
+@media (max-width: 320px) {
+    .headline {
+        padding-top: 70px;
+    }
+}
+
+.heading {
+    margin: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.88px;
+}
